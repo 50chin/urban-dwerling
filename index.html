@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,52 @@
     <title>Urban Dwelling</title>
   </head>
   <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__info">
+          <nav>
+            <ul class="header__info-list">
+              <li class="header__info-item">
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li class="header__info-item">
+                <a href="#">Гарантия и возврат</a>
+              </li>
+              <li class="header__info-item">
+                <select name="language" id="language">
+                  <option value="en">EN</option>
+                  <option value="ru">RU</option>
+                </select>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__menu">
+          <a href="#"><img src="./src/img/icon/black_logo.svg" alt="logo" /></a>
+          <nav>
+            <ul class="header__menu-list">
+              <li class="header__menu-item"><a href="">Каталог</a></li>
+              <li class="header__menu-item"><a href="">О компании</a></li>
+              <li class="header__menu-item">
+                <a href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__right-block">
+            <form class="header__form">
+              <input class="header__input" type="text" placeholder="поиск"/>
+              <button class="header__btn-search" id="btn-search" type="button">
+                <img src="./src/img/icon/search.svg" alt="icon" />
+              </button>
+            </form>
+            <button class="header__btn-basket" id="btn-basket" type="button">
+              <img src="./src/img/icon/basket.svg" alt="icon" /> Корзина
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer class="footer"></footer>
   </body>
